@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gambar Full Layar Kanan Kiri dengan Penjelasan</title>
+<style>
+  /* CSS untuk container utama */
+  .container {
+    width: 100vw; /* Lebar penuh layar */
+    display: flex;
+    flex-direction: column; /* Tampilkan gambar dan teks secara vertikal */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style untuk gambar */
+  .image-full {
+    width: 100%; /* Gambar memenuhi lebar layar */
+    height: auto; /* Menjaga rasio aspek gambar */
+  }
+
+  /* Style untuk teks penjelasan */
+  .caption {
+    max-width: 80%; /* Maksimal lebar teks agar lebih rapi */
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px 0 30px; /* Jarak atas dan bawah teks */
+    color: #333;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <!-- Gambar pertama dengan penjelasan -->
+    <img src="path/to/first-image.jpg" alt="Gambar Pertama" class="image-full">
+    <p class="caption">Penjelasan untuk gambar pertama di sini. Deskripsi singkat atau informasi penting terkait gambar.</p>
+    
+    <!-- Gambar kedua dengan penjelasan -->
+    <img src="path/to/second-image.jpg" alt="Gambar Kedua" class="image-full">
+    <p class="caption">Penjelasan untuk gambar kedua di sini. Deskripsi singkat atau informasi penting terkait gambar.</p>
+  </div>
+</body>
+</html>
